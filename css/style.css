@@ -1,0 +1,338 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Gotham, sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.about-card-banner-section {
+    background: -o-linear-gradient(2.67deg, #0060db 0%, #00b1ff 100%);
+    background: linear-gradient(87.33deg, #0060db 0%, #00b1ff 100%);
+    overflow: hidden;
+    position: relative
+}
+
+.about-card-banner-text {
+    color: #fff;
+    margin: 0 auto;
+    padding: 270px 0 0px;
+    text-align: center
+}
+
+.about-card-banner-title {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.45;
+}
+
+.about-card-banner-subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.45;
+}
+
+.about-card-banner-img-wrap {
+    height: 350px;
+    margin-left: -225px;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    width: 450px;
+}
+
+.about-card-banner-img {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+    .about-card-banner-text {
+        padding: 130px 30px;
+        text-align: left;
+    }
+
+
+    .about-card-banner-title {
+        font-size: 35px;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .about-card-banner-subtitle {
+        font-size: 35px;
+        margin: 0;
+        max-width: 300px;
+    }
+
+    .about-card-banner-img-wrap {
+        height: 495px;
+        top: 0;
+        left: 36%;
+        margin-left: 0;
+        width: 636px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-card-banner-text {
+        max-width: 1160px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .about-card-banner-img-wrap {
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        max-width: 1160px;
+        padding: 0 20px;
+        width: 100%
+    }
+
+    .about-card-banner-img {
+        right: 20px;
+        left: auto
+    }
+}
+
+
+
+.about-card-advantages-section {
+    margin: 0 auto 40px;
+    max-width: 1160px;
+    padding: 20px
+}
+
+.about-card-advantages-h {
+    display: none
+}
+
+.about-card-advantages-item {
+    margin: 0 0 40px;
+    text-align: center
+}
+
+.about-card-advantages-img-wrap {
+    height: 160px;
+    margin: 0 auto 10px;
+    position: relative;
+    width: 160px
+}
+
+.about-card-advantages-img {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.about-card-advantages-title {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 10px
+}
+
+.about-card-advantages-text {
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0
+}
+
+@media (min-width: 576px) {
+    .about-card-advantages-section {
+        padding-top: 60px
+    }
+
+    .about-card-advantages-h {
+        display: block;
+        font-size: 24px;
+        line-height: 1.45;
+        margin: 0 0 20px;
+        text-align: center
+    }
+
+    .about-card-advantages {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .about-card-advantages-item {
+        width: calc(50% - 10px)
+    }
+}
+
+@media (min-width: 768px) {
+    .about-card-advantages-h {
+        font-size: 32px
+    }
+
+    .about-card-advantages-img-wrap {
+        height: 200px;
+        margin-bottom: 20px;
+        width: 200px
+    }
+
+    .about-card-advantages-title {
+        font-size: 22px;
+        margin-bottom: 20px
+    }
+
+    .about-card-advantages-text {
+        font-size: 18px;
+        line-height: 1.4
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-card-advantages-h {
+        text-align: left
+    }
+
+    .about-card-advantages-item {
+        width: calc((100% - 60px) / 4)
+    }
+}
+
+
+
+
+
+
+.about-card-apply-section {
+    margin: 0 auto 60px;
+    max-width: 1160px;
+    padding: 20px;
+    text-align: center
+}
+
+.about-card-apply-title {
+    font-size: 24px;
+    line-height: 1.45;
+    margin: 30px 0
+}
+
+.about-card-apply-text {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0 0 30px;
+    text-align: left
+}
+
+.about-card-apply-text:first-of-type {
+    margin-top: 30px
+}
+
+.about-card-apply-text:last-child {
+    margin-bottom: 0
+}
+
+a.about-card-apply-link,
+a.about-card-apply-link:link,
+a.about-card-apply-link:visited,
+a.about-card-apply-link:hover,
+a.about-card-apply-link:focus,
+a.about-card-apply-link:active {
+    color: #0d0d0d;
+    text-decoration: underline
+}
+
+@media (min-width: 768px) {
+    .about-card-apply-section:after {
+        clear: both;
+        content: '';
+        display: table
+    }
+
+    .about-card-apply-img-wrap {
+        float: left;
+        height: 233px;
+        position: relative;
+        width: calc(50% - 10px)
+    }
+
+    .about-card-apply-img {
+        display: block;
+        margin: auto;
+        max-height: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 0;
+        right: 30px;
+        bottom: 0
+    }
+
+    .about-card-apply-title {
+        display: table-cell;
+        font-size: 32px;
+        height: 233px;
+        text-align: left;
+        vertical-align: middle;
+        width: 350px
+    }
+
+    .about-card-apply-text {
+        font-size: 18px
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-card-apply-img-wrap {
+        height: 380px;
+        margin-right: 20px;
+        width: calc((100% + 20px) * 5 / 12 - 20px)
+    }
+
+    .about-card-apply-img {
+        right: 0;
+        left: 0
+    }
+
+    .about-card-apply {
+        display: table-cell;
+        height: 380px;
+        vertical-align: middle
+    }
+
+    .about-card-apply-title {
+        height: auto;
+        width: auto
+    }
+}
